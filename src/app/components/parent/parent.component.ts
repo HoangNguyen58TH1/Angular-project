@@ -13,6 +13,6 @@ export class ParentComponent implements OnInit {
   }
  
   updateUser() {
-     this.userName = 'Chris123';
+     this.userName = 'Chris12345';
   }
 }
