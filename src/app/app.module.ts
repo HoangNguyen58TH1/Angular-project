@@ -17,6 +17,11 @@ import { VersionParentComponent } from './components/component-interaction/versi
 import { VersionChildComponent } from './components/component-interaction/version-child.component';
 import { VoterComponent } from './components/component-interaction/voter.component';
 import { VoteTakerComponent } from './components/component-interaction/votetaker.component';
+import { CountdownLocalVarParentComponent } from './components/component-interaction/countdown-parent-lv.component';
+import { CountdownTimerComponent } from './components/component-interaction/countdown-timer.component';
+import { CountdownViewChildParentComponent } from './components/component-interaction/countdown-parent-vc.component';
+import { MissionControlComponent } from './components/component-interaction/missioncontrol.component';
+import { AstronautComponent } from './components/component-interaction/astronaut.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +40,12 @@ import { VoteTakerComponent } from './components/component-interaction/votetaker
     VersionParentComponent,
     VersionChildComponent,
     VoterComponent,
-    VoteTakerComponent
+    VoteTakerComponent,
+    CountdownLocalVarParentComponent,
+    CountdownTimerComponent,
+    CountdownViewChildParentComponent,
+    MissionControlComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule
