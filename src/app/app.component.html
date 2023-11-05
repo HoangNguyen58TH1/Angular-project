@@ -16,6 +16,17 @@
 <!-- <app-vote-taker></app-vote-taker> -->
 <!-- <app-countdown-parent-lv></app-countdown-parent-lv> -->
 <!-- <app-countdown-parent-vc></app-countdown-parent-vc> -->
+<!-- <app-mission-control></app-mission-control> -->
 
-<app-mission-control></app-mission-control>
-
+<!-- input -->
+<!-- <app-item-detail [item]="currentItem"></app-item-detail> -->
+<!-- output -->
+<!-- <app-item-output (newItemEvent)="addItem($event)"></app-item-output>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul> -->
+<!-- input & output -->
+<app-input-output
+  [item]="currentItem"
+  (deleteRequest)="crossOffItem($event)">
+</app-input-output>
