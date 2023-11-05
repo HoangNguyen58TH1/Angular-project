@@ -22,6 +22,9 @@ import { CountdownTimerComponent } from './components/component-interaction/coun
 import { CountdownViewChildParentComponent } from './components/component-interaction/countdown-parent-vc.component';
 import { MissionControlComponent } from './components/component-interaction/missioncontrol.component';
 import { AstronautComponent } from './components/component-interaction/astronaut.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { ItemOutputComponent } from './components/item-output/item-output.component';
+import { InputOutputComponent } from './components/input-output/input-output.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { AstronautComponent } from './components/component-interaction/astronaut
     CountdownTimerComponent,
     CountdownViewChildParentComponent,
     MissionControlComponent,
-    AstronautComponent
+    AstronautComponent,
+    ItemDetailComponent,
+    ItemOutputComponent,
+    InputOutputComponent
   ],
   imports: [
     BrowserModule
