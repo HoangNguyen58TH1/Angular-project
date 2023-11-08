@@ -25,6 +25,7 @@ import { AstronautComponent } from './components/component-interaction/astronaut
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 import { ItemOutputComponent } from './components/item-output/item-output.component';
 import { InputOutputComponent } from './components/input-output/input-output.component';
+import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { InputOutputComponent } from './components/input-output/input-output.com
     AstronautComponent,
     ItemDetailComponent,
     ItemOutputComponent,
-    InputOutputComponent
+    InputOutputComponent,
+    ContentProjectionComponent
   ],
   imports: [
     BrowserModule

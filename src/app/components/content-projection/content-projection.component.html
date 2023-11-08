@@ -1,0 +1,5 @@
+<h2>This is content projection of child</h2>
+<ng-content></ng-content>
+<ng-content id="[id_content]"></ng-content>
+<ng-content *ngIf="!isShow" select="[content2]"></ng-content>
+<ng-content *ngIf="isShow" select="[content1]"></ng-content>
