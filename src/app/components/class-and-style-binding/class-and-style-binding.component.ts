@@ -13,4 +13,8 @@ export class ClassAndStyleBindingComponent {
   textRedUnderline: Array<string> = ['text-red', 'bold', 'text-underline']; //array
   bgColor = 'yellow'; // single style
   multiStyle = 'color: pink; font-size: 32px'
+
+  onClick() {
+    console.log('Event Binding - Click');
+  }
 }
