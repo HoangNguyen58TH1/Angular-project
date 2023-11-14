@@ -26,6 +26,7 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
 import { ItemOutputComponent } from './components/item-output/item-output.component';
 import { InputOutputComponent } from './components/input-output/input-output.component';
 import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
+import { ClassAndStyleBindingComponent } from './components/class-and-style-binding/class-and-style-binding.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { ContentProjectionComponent } from './components/content-projection/cont
     ItemDetailComponent,
     ItemOutputComponent,
     InputOutputComponent,
-    ContentProjectionComponent
+    ContentProjectionComponent,
+    ClassAndStyleBindingComponent
   ],
   imports: [
     BrowserModule
