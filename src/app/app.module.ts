@@ -27,6 +27,8 @@ import { ItemOutputComponent } from './components/item-output/item-output.compon
 import { InputOutputComponent } from './components/input-output/input-output.component';
 import { ContentProjectionComponent } from './components/content-projection/content-projection.component';
 import { ClassAndStyleBindingComponent } from './components/class-and-style-binding/class-and-style-binding.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { SizerComponent } from './components/two-way-binding/sizer.component';
 
 @NgModule({
   declarations: [
@@ -55,10 +57,12 @@ import { ClassAndStyleBindingComponent } from './components/class-and-style-bind
     ItemOutputComponent,
     InputOutputComponent,
     ContentProjectionComponent,
-    ClassAndStyleBindingComponent
+    ClassAndStyleBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SizerComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
