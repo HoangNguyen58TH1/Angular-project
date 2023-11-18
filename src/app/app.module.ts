@@ -29,6 +29,8 @@ import { ContentProjectionComponent } from './components/content-projection/cont
 import { ClassAndStyleBindingComponent } from './components/class-and-style-binding/class-and-style-binding.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { SizerComponent } from './components/two-way-binding/sizer.component';
+import { PipeComponent } from './components/pipe/pipe.component';
+import { ExponentialStrengthPipe } from './components/pipe/exponential-strength.pipe';
 
 @NgModule({
   declarations: [
@@ -58,11 +60,13 @@ import { SizerComponent } from './components/two-way-binding/sizer.component';
     InputOutputComponent,
     ContentProjectionComponent,
     ClassAndStyleBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    PipeComponent
   ],
   imports: [
     BrowserModule,
-    SizerComponent
+    SizerComponent,
+    ExponentialStrengthPipe
   ],
   providers: [],
   bootstrap: [AppComponent]
