@@ -1,0 +1,23 @@
+<p>My birthday of PIPE is: <b>{{ birthday | date }}</b></p>
+<p>My birthday of PIPE is: <b>{{ birthday | date:"shortDate" }}</b></p>
+<p>My birthday of PIPE is: <b>{{ birthday | date:"longDate" }}</b></p>
+<p>My birthday of PIPE is: <b>{{ birthday | date:"fullDate" }}</b></p>
+<p>My birthday of PIPE is: <b>{{ birthday | date:"fullDate" | uppercase }}</b></p>
+<br>
+
+<p><b>{{ price | currency }}</b> </p>
+<p><b>{{ price | currency:'EUR' }}</b> </p>
+<p><b>{{ price | currency:'VND' }}</b> </p>
+<p><b>{{ price | currency:'JPY' }}</b> </p>
+<br>
+
+CASE:
+<p>Hoang {{ 'Toni' | uppercase }} ne</p>
+<p>HOANG {{ 'TonI' | lowercase }} ne</p>
+<br>
+
+<!-- This is PIPE self-define -->
+POWER:
+<!-- luy thua -->
+<p>{{ 2 | exponentialStrength: 10 }}</p>
+<p>{{ 5 | exponentialStrength: 3 }}</p>
