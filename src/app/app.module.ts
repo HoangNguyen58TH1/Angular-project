@@ -31,6 +31,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
 import { SizerComponent } from './components/two-way-binding/sizer.component';
 import { PipeComponent } from './components/pipe/pipe.component';
 import { ExponentialStrengthPipe } from './components/pipe/exponential-strength.pipe';
+import { TemplateVariableComponent } from './components/template-variable/template-variable.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -61,12 +63,14 @@ import { ExponentialStrengthPipe } from './components/pipe/exponential-strength.
     ContentProjectionComponent,
     ClassAndStyleBindingComponent,
     TwoWayBindingComponent,
-    PipeComponent
+    PipeComponent,
+    TemplateVariableComponent
   ],
   imports: [
     BrowserModule,
     SizerComponent,
-    ExponentialStrengthPipe
+    ExponentialStrengthPipe,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
