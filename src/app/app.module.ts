@@ -33,6 +33,8 @@ import { PipeComponent } from './components/pipe/pipe.component';
 import { ExponentialStrengthPipe } from './components/pipe/exponential-strength.pipe';
 import { TemplateVariableComponent } from './components/template-variable/template-variable.component';
 import { FormsModule } from '@angular/forms';
+import { HighlightDirective } from './directive/highlight.directive';
+import { HighlightComponent } from './directive/highlight.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { FormsModule } from '@angular/forms';
     ClassAndStyleBindingComponent,
     TwoWayBindingComponent,
     PipeComponent,
-    TemplateVariableComponent
+    TemplateVariableComponent,
+    HighlightDirective,
+    HighlightComponent
   ],
   imports: [
     BrowserModule,
