@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // title = 'my-project';
-  currentItem = 'Television';
+  // currentItem = 'Television';
   // items = ['item1', 'item2', 'item3', 'item4'];
 
   // addItem(newItem: string) {
   //   this.items.push(newItem);
   // }
 
-  crossOffItem(item: string) {
-    console.warn(`Parent says: crossing off ${item}.`);
-  }
+  // crossOffItem(item: string) {
+  //   console.warn(`Parent says: crossing off ${item}.`);
+  // }
 }

@@ -1,0 +1,21 @@
+<!-- directive -->
+<!-- <p appHighlight>Highlight me! (Text of Directiveeeeee)</p> -->
+
+<!-- directive INPUT -->
+<h2>Pick a highlight color</h2>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
+<p [appHighlight]="color">Highlight me!</p>
+
+<!-- Binding to a second property -->
+<p [appHighlight]="color" defaultColor="violet">Highlight me too!</p>
+
+<!-- ngNonBindable -->
+<p>Use ngNonBindable to stop evaluation.</p>
+<p ngNonBindable>This should not evaluate: {{ 1 + 1 }}</p>
+
+<!-- ngNonBindable, but still lets Direvtive work -->
+<div ngNonBindable [appHighlight]="'yellow'">This should not evaluate: {{ 1 +1 }}, but will highlight yellow.
