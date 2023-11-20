@@ -35,6 +35,8 @@ import { TemplateVariableComponent } from './components/template-variable/templa
 import { FormsModule } from '@angular/forms';
 import { HighlightDirective } from './attribute-directive/highlight.directive';
 import { HighlightComponent } from './attribute-directive/highlight.component';
+import { UnlessDirective } from './structural-directive/unless.directive';
+import { UnlessComponent } from './structural-directive/unless.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { HighlightComponent } from './attribute-directive/highlight.component';
     PipeComponent,
     TemplateVariableComponent,
     HighlightDirective,
-    HighlightComponent
+    HighlightComponent,
+    UnlessDirective,
+    UnlessComponent
   ],
   imports: [
     BrowserModule,
